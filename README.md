@@ -13,7 +13,7 @@ Point Claude at your codebase (or just describe your stack), and it will produce
 ## Quick Start
 
 ```bash
-npx skills add fauziabd-kitabisa/uu-pdp-audit
+npx skills add nooglersoon/uu-pdp-audit
 ```
 
 Then in Claude Code, describe your app:
