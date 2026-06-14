@@ -55,6 +55,9 @@ The skill generates a structured Markdown report saved automatically to your pro
 pdp_audit_report.md
 ```
 
+<img width="782" height="738" alt="Screenshot 2026-06-14 at 08 25 55" src="https://github.com/user-attachments/assets/2cd4e6c4-9d62-42b7-a4b3-5a15437bdb08" />
+
+
 The report includes:
 
 - **📖 Reading Guide** — explains status symbols (✅ ⚠️ ❌ ❓) and priority levels (🔴 HIGH / 🟡 MEDIUM / 🟢 LOW) so any team member can understand it
