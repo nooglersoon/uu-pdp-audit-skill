@@ -61,7 +61,7 @@ Baseline security check independent of UU PDP:
 - Password hashing algorithm (must be bcrypt/argon2/PBKDF2, not MD5/SHA1)
 - Session/token management and expiry
 - Are sensitive endpoints protected? Any publicly accessible sensitive routes?
-- Hardcoded secrets or API keys in source code
+- Hardcoded secrets or API keys in source code — if found, report ONLY the file path and line number, never reproduce the actual secret value (write `[REDACTED]` in place of the value)
 - Error responses leaking stack traces
 - Sensitive fields (passwords, NIK, tokens) appearing in logs
 
@@ -95,7 +95,7 @@ Use the structure in `references/report_template.md`. The template includes a "P
 
 **Cite the correct Pasal.** Use the table at the top of this skill. Never cite Pasal 57-72 to describe obligations or rights — cite those only when explaining potential penalties.
 
-**Be concrete, not generic.** Every finding must reference actual code (file:line) or — when no code is available — show a specific code example in the user's stack demonstrating what to implement.
+**Be concrete, not generic.** Every finding must reference actual code (file:line) or — when no code is available — show a specific code example in the user's stack demonstrating what to implement. **Exception: never reproduce actual secret values, tokens, passwords, or credentials found in code — always replace them with `[REDACTED]` in any code snippet or citation.**
 
 **Speak to founders, not lawyers.** Explain why each item matters in plain language.
 
