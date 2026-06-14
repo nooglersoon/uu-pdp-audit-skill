@@ -8,6 +8,8 @@ Claude skill that audits your codebase for compliance with **UU PDP (Undang-Unda
 
 Point Claude at your codebase (or just describe your stack), and it will produce a complete, prioritized Markdown audit report covering all 10 compliance areas — automatically saved to your project.
 
+Credits to https://github.com/kertijayancom/pdp-koans-django for the UU PDP Summary as the reference.
+
 ---
 
 ## Quick Start
