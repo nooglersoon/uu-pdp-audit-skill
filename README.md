@@ -4,7 +4,7 @@
 [![UU PDP](https://img.shields.io/badge/UU%20PDP-No.%2027%2F2022-blue)](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022)
 [![ISO 27001](https://img.shields.io/badge/ISO-27001-blue)](https://www.iso.org/isoiec-27001-information-security.html)
 
-An open-source Claude skill that audits your codebase for compliance with **UU PDP (Undang-Undang Pelindungan Data Pribadi No. 27 Tahun 2022)** — Indonesia's comprehensive personal data protection law, similar to GDPR.
+Claude skill that audits your codebase for compliance with **UU PDP (Undang-Undang Pelindungan Data Pribadi No. 27 Tahun 2022)** — Indonesia's comprehensive personal data protection law, similar to GDPR.
 
 Point Claude at your codebase (or just describe your stack), and it will produce a complete, prioritized Markdown audit report covering all 10 compliance areas — automatically saved to your project.
 
